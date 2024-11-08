@@ -45,7 +45,7 @@ const Dashboard = () => {
             alt="Profile"
           />
         </div>
-        <h2>Welcome Suneel Chauhan</h2>
+        <h2>Welcome Suneel</h2>
       </header>
 
       <section className="task-list">
