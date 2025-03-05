@@ -1,0 +1,74 @@
+.dashboard {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .header {
+    text-align: center;
+    background-color: #a0e7e5;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .profile-picture img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .task-list {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .daily-tasks {
+    margin-top: 10px;
+  }
+  h3{
+    font-size: 30px;
+  }
+  h3,h4{
+    text-align: center;
+  }
+  .daily-tasks ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .daily-tasks li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .daily-tasks input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .add-task-section {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .add-task-section input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .add-task-section button {
+    background-color: #a0e7e5;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+  }
+  
